@@ -1,0 +1,50 @@
+.app{
+    padding: 2rem;
+    .posts{
+        width: 50rem;
+        margin: auto;
+        .post{
+            width: 20rem;
+            margin: auto;
+        }
+        .post-image{
+            width: 15rem;
+        
+        }
+    }
+}
+.card{
+    width: 50rem;
+    padding: 1rem;
+    margin: auto;
+    position: relative;
+    .thumbnail{
+        border-radius: 50%;
+        width: 5rem;
+        margin-right: 1rem;
+    }
+    .button{
+        color: white;
+        background-color: #4867AA;
+        border: 1px solid;
+        width: 4rem;
+    }
+    .post-url{
+        width: 10rem;
+        height: auto;
+        margin: auto;
+    }
+
+}
+.gif-card{
+    margin-top: 1rem;
+    position: absolute;
+    left: 23rem;
+    // height: 100vh;
+
+    .card-img-top{
+        width: 10rem;
+        margin: 2px;
+    }
+}
+
